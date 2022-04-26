@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Board from './Modules/Board.js';
 
 function App() {
+  // Temporary board variable.
+  const boardState = [
+    [4,8,16,32],
+    [64,128,256,512],
+    [1024,2048,4096,8192],
+    [16384,32768,65536,131072]
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className='fullscreen bgColor centerObject flexColumn'>
+        <h1 className='title'>2048</h1>
+        <Board boardState={boardState} test={'a'} />
+      </div>
     </div>
   );
 }

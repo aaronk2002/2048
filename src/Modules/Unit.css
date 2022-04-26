@@ -1,0 +1,101 @@
+.gridDim {
+    width: 100%;
+    height: 100%;
+}
+
+.gridOther {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.a0 {
+    background-color: lightgray;
+}
+.a2 {
+    background-color: #F5E356;
+    font-size: 200%;
+    color: black;
+}
+.a4 {
+    background-color: #EFD34E;
+    font-size: 200%;
+    color: black;
+}
+.a8 {
+    background-color: #EAC346;
+    font-size: 200%;
+    color: black;
+}
+.a16 {
+    background-color: #E5B33E;
+    font-size: 200%;
+    color: black;
+}
+.a32 {
+    background-color: #E0A337;
+    font-size: 200%;
+    color: black;
+}
+.a64 {
+    background-color: #DA932F;
+    font-size: 200%;
+    color: black;
+}
+.a128 {
+    background-color: #D58327;
+    font-size: 200%;
+    color: black;
+}
+.a256 {
+    background-color: #D0731F;
+    font-size: 200%;
+    color: black;
+}
+.a512 {
+    background-color: #CB6318;
+    font-size: 200%;
+    color: black;
+}
+.a1024 {
+    background-color: #CB6318;
+    font-size: 200%;
+    color: black;
+}
+.a2048 {
+    background-color: #CB6318;
+    font-size: 200%;
+    color: black;
+}
+.a4096 {
+    background-color: #CB6318;
+    font-size: 200%;
+    color: black;
+}
+.a8192 {
+    background-color: #CB6318;
+    font-size: 200%;
+    color: black;
+}
+.a16384 {
+    background-color: #CB6318;
+    font-size: 175%;
+    color: black;
+}
+.a32768 {
+    background-color: #CB6318;
+    font-size: 175%;
+    color: black;
+}
+.a65536 {
+    background-color: #CB6318;
+    font-size: 175%;
+    color: black;
+}
+.a131072 {
+    background-color: #CB6318;
+    font-size: 150%;
+    color: black;
+}
