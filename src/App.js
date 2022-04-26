@@ -13,7 +13,7 @@ function App() {
     <div>
       <div className='fullscreen bgColor centerObject flexColumn'>
         <h1 className='title'>2048</h1>
-        <Board boardState={boardState} test={'a'} />
+        <Board boardState={boardState} />
       </div>
     </div>
   );

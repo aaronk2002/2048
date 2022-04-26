@@ -1,7 +1,3 @@
-:root {
-    --boardSide: 60vh;
-}
-
 .boardColor {
     background-color: #7CAA2D;
 }
@@ -13,12 +9,12 @@
 
 @media screen and (orientation: landscape) {
     .boardDim {
-        height: var(--boardSide);
+        height: 60vh;
     }
 }
 @media screen and (orientation: portrait) {
     .boardDim {
-        width: var(--boardSide);
+        width: 80vw;
     }
 }
 
